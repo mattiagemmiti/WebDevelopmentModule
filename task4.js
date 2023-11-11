@@ -1,3 +1,10 @@
+/* This JavaScript script applies Dijkstra's algorithm to discover the shortest paths in a weighted graph represented by a matrix.
+ It prompts the user to input a starting node, then employs Dijkstra's algorithm to compute and showcase the shortest distances to 
+ all other nodes in the graph. The results are thoughtfully presented in the console. While the structure of the adjacency matrix 
+ remains constant, the script offers user interaction by allowing the insertion of the starting node.*/
+
+
+
 // Function to apply Dijkstra's algorithm
 function dijkstraAlgorithm(adjMatrix, startNode) {
     const numNodes = adjMatrix.length;
